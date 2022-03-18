@@ -1,10 +1,10 @@
-- 👋 Hi, I’m @Dianandriani12
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+class Motor:
+    def __init__(self, inputNama, input, inputTahun, inputTujuan):
+        self.nama = inputNama
+        self.Tahun = inputTahun
+        self.Tujuan = inputTujuan
 
-<!---
-Dianandriani12/Dianandriani12 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Motor1 = Motor("Mio",2020, "Makassar")
+Motor2 = Motor("scupy",2021,"Polewali")
+
+print(Motor.Tujuan)
